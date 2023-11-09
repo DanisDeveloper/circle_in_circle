@@ -6,7 +6,7 @@ void setup() {
   size(800, 800);
   frameRate(100);
   center = new PVector(width/2,height/2);
-  agent = new Agent(width/2-100, height/2+100, 3,1, 2);
+  agent = new Agent(width/2, height/2+200, 1,2, 2);
   
   background(0);
   fill(0);
